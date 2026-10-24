@@ -1,12 +1,12 @@
 # Project Progress: Distributions in Practice
 
 **Last updated:** 2026-10-24
-**Current phase:** Phase 1: Foundations
-**Current step:** Design shared plotting helpers (utils/plotting.py)
+**Current phase:** Phase 2: Gold-standard notebook
+**Current step:** Choose distribution and build Section 1 (Intuition)
 
 ## Completed
 - [x] Phase 0: Setup
-- [ ] Phase 1: Foundations
+- [x] Phase 1: Foundations
 - [ ] Phase 2: Gold-standard notebook
 - [ ] Phase 3: Discrete block (Bernoulli, Binomial, Geometric, Poisson, Negative Binomial)
 - [ ] Phase 4: Continuous block (Uniform, Normal, Exponential, Gamma, Beta, Log-normal, Weibull)
@@ -16,14 +16,15 @@
 - [ ] Phase 8: Polish and publish
 
 ## In progress
-- Phase 1: Creating shared plotting helpers in `utils/plotting.py`
+- Phase 2: Creating the Gold-Standard notebook (Binomial or Normal) to establish the benchmark for all future notebooks
 
 ## Next step
-- Implement the foundation plotting style and helper functions (`plot_pmf`, `plot_pdf`, `plot_cdf`)
+- Select the Gold-Standard distribution and begin Section 1 (Intuition & Motivation)
 
 ## Decisions made
-- Environment configured with Python virtual environment (`.venv`), Jupyter kernel named `distributions-env`.
-- Standard project structure established: `notebooks/`, `utils/`, `data/`.
+- Defined unified visual palette (`PALETTE`) and styling in `utils/plotting.py`.
+- Implemented `plot_pmf`, `plot_pdf`, `plot_cdf`, and `plot_sample_vs_theory`.
+- Generated 8-section notebook template `notebooks/_template.ipynb`.
 
 ## Concepts to revisit
 - None yet
