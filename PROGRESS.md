@@ -2,24 +2,24 @@
 
 **Last updated:** 2026-10-25
 **Current phase:** Phase 4: Continuous block
-**Current step:** Build Section 1 (Intuition & Motivation) for Gamma distribution
+**Current step:** Build Section 1 (Intuition & Motivation) for Beta distribution
 
 ## Completed
 - [x] Phase 0: Setup
 - [x] Phase 1: Foundations
 - [x] Phase 2: Gold-standard notebook (`notebooks/01_binomial.ipynb`)
 - [x] Phase 3: Discrete block (Bernoulli, Geometric, Poisson, Negative Binomial)
-- [ ] Phase 4: Continuous block (Uniform [x], Normal [x], Exponential [x], Gamma [ ], Beta [ ], Log-normal [ ], Weibull [ ])
+- [ ] Phase 4: Continuous block (Uniform [x], Normal [x], Exponential [x], Gamma [x], Beta [ ], Log-normal [ ], Weibull [ ])
 - [ ] Phase 5: Sampling distributions (Chi-square, t, F)
 - [ ] Phase 6: Capstone notebooks
 - [ ] Phase 7: Streamlit app
 - [ ] Phase 8: Polish and publish
 
 ## In progress
-- Phase 4: Continuous distribution block (Uniform, Normal, and Exponential finished; Gamma, Beta, Log-normal, Weibull remaining)
+- Phase 4: Continuous distribution block (Uniform, Normal, Exponential, and Gamma finished; Beta, Log-normal, Weibull remaining)
 
 ## Next step
-- Build `notebooks/09_gamma.ipynb` (waiting time for multiple continuous events)
+- Build `notebooks/10_beta.ipynb` (modeling probabilities, proportions, and Bayesian priors on [0, 1])
 
 ## Decisions made
 - Defined unified visual palette (`PALETTE`) and styling in `utils/plotting.py`.
@@ -33,6 +33,7 @@
 - Completed Continuous Uniform notebook `notebooks/06_uniform.ipynb` (digital quantization noise Bennett's model, German Tank Problem MVUE, and Inverse Transform Sampling).
 - Completed Normal notebook `notebooks/07_normal.ipynb` (Six Sigma aerospace tolerances use case, 2D likelihood contour surface, Bessel's correction, and Central Limit Theorem demonstration).
 - Completed Exponential notebook `notebooks/08_exponential.ipynb` (datacenter SSD MTBF reliability use case, memoryless property proof, 1/x_bar MLE derivation, and Gamma construction from sum of exponentials).
+- Completed Gamma notebook `notebooks/09_gamma.ipynb` (hospital ICU length of stay use case, 2D likelihood contour surface, digamma MLE, and Chi-Square identity proof).
 
 ## Concepts to revisit
 - None yet
