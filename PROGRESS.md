@@ -2,24 +2,24 @@
 
 **Last updated:** 2026-10-25
 **Current phase:** Phase 4: Continuous block
-**Current step:** Build Section 1 (Intuition & Motivation) for Normal distribution
+**Current step:** Build Section 1 (Intuition & Motivation) for Exponential distribution
 
 ## Completed
 - [x] Phase 0: Setup
 - [x] Phase 1: Foundations
 - [x] Phase 2: Gold-standard notebook (`notebooks/01_binomial.ipynb`)
 - [x] Phase 3: Discrete block (Bernoulli, Geometric, Poisson, Negative Binomial)
-- [ ] Phase 4: Continuous block (Uniform [x], Normal [ ], Exponential [ ], Gamma [ ], Beta [ ], Log-normal [ ], Weibull [ ])
+- [ ] Phase 4: Continuous block (Uniform [x], Normal [x], Exponential [ ], Gamma [ ], Beta [ ], Log-normal [ ], Weibull [ ])
 - [ ] Phase 5: Sampling distributions (Chi-square, t, F)
 - [ ] Phase 6: Capstone notebooks
 - [ ] Phase 7: Streamlit app
 - [ ] Phase 8: Polish and publish
 
 ## In progress
-- Phase 4: Continuous distribution block (Uniform finished; Normal, Exponential, Gamma, Beta, Log-normal, Weibull remaining)
+- Phase 4: Continuous distribution block (Uniform and Normal finished; Exponential, Gamma, Beta, Log-normal, Weibull remaining)
 
 ## Next step
-- Build `notebooks/07_normal.ipynb` (the central pillar of continuous probability)
+- Build `notebooks/08_exponential.ipynb` (continuous memoryless waiting times)
 
 ## Decisions made
 - Defined unified visual palette (`PALETTE`) and styling in `utils/plotting.py`.
@@ -31,6 +31,7 @@
 - Completed Poisson notebook `notebooks/04_poisson.ipynb` (cloud server capacity/DDoS alerting use case, dual mean-variance LLN convergence, analytical + numerical MLE, and Normal approximation).
 - Completed Negative Binomial notebook `notebooks/05_negative_binomial.ipynb` (customer purchase overdispersion use case, 2D MLE surface optimization, and Poisson convergence limit).
 - Completed Continuous Uniform notebook `notebooks/06_uniform.ipynb` (digital quantization noise Bennett's model, German Tank Problem MVUE, and Inverse Transform Sampling).
+- Completed Normal notebook `notebooks/07_normal.ipynb` (Six Sigma aerospace tolerances use case, 2D likelihood contour surface, Bessel's correction, and Central Limit Theorem demonstration).
 
 ## Concepts to revisit
 - None yet
