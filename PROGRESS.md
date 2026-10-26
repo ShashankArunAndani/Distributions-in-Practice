@@ -9,17 +9,17 @@
 - [x] Phase 1: Foundations
 - [x] Phase 2: Gold-standard notebook (`notebooks/01_binomial.ipynb`)
 - [x] Phase 3: Discrete block (Bernoulli, Geometric, Poisson, Negative Binomial)
-- [ ] Phase 4: Continuous block (Uniform [x], Normal [x], Exponential [x], Gamma [x], Beta [x], Log-normal [x], Weibull [ ])
+- [x] Phase 4: Continuous block (Uniform [x], Normal [x], Exponential [x], Gamma [x], Beta [x], Log-normal [x], Weibull [x])
 - [ ] Phase 5: Sampling distributions (Chi-square, t, F)
 - [ ] Phase 6: Capstone notebooks
 - [ ] Phase 7: Streamlit app
 - [ ] Phase 8: Polish and publish
 
 ## In progress
-- Phase 4: Continuous distribution block (Uniform, Normal, Exponential, Gamma, Beta, and Log-Normal finished; Weibull remaining as final continuous distribution)
+- Completed phase 4 
 
 ## Next step
-- Build `notebooks/12_weibull.ipynb` (reliability engineering, hazard rate / bathtub curve aging dynamics, and wind turbine bearing fatigue)
+- Sampling distributions
 
 ## Decisions made
 - Defined unified visual palette (`PALETTE`) and styling in `utils/plotting.py`.
