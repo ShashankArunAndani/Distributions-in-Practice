@@ -2,24 +2,24 @@
 
 **Last updated:** 2026-10-26
 **Current phase:** Phase 4: Continuous block
-**Current step:** Build Section 1 (Intuition & Motivation) for Log-Normal distribution
+**Current step:** Build `notebooks/12_weibull.ipynb` (Weibull distribution)
 
 ## Completed
 - [x] Phase 0: Setup
 - [x] Phase 1: Foundations
 - [x] Phase 2: Gold-standard notebook (`notebooks/01_binomial.ipynb`)
 - [x] Phase 3: Discrete block (Bernoulli, Geometric, Poisson, Negative Binomial)
-- [ ] Phase 4: Continuous block (Uniform [x], Normal [x], Exponential [x], Gamma [x], Beta [x], Log-normal [ ], Weibull [ ])
+- [ ] Phase 4: Continuous block (Uniform [x], Normal [x], Exponential [x], Gamma [x], Beta [x], Log-normal [x], Weibull [ ])
 - [ ] Phase 5: Sampling distributions (Chi-square, t, F)
 - [ ] Phase 6: Capstone notebooks
 - [ ] Phase 7: Streamlit app
 - [ ] Phase 8: Polish and publish
 
 ## In progress
-- Phase 4: Continuous distribution block (Uniform, Normal, Exponential, Gamma, and Beta finished; Log-normal and Weibull remaining)
+- Phase 4: Continuous distribution block (Uniform, Normal, Exponential, Gamma, Beta, and Log-Normal finished; Weibull remaining as final continuous distribution)
 
 ## Next step
-- Build `notebooks/11_lognormal.ipynb` (multiplicative growth processes, stock prices, and income distribution)
+- Build `notebooks/12_weibull.ipynb` (reliability engineering, hazard rate / bathtub curve aging dynamics, and wind turbine bearing fatigue)
 
 ## Decisions made
 - Defined unified visual palette (`PALETTE`) and styling in `utils/plotting.py`.
@@ -35,6 +35,7 @@
 - Completed Exponential notebook `notebooks/08_exponential.ipynb` (datacenter SSD MTBF reliability use case, memoryless property proof, 1/x_bar MLE derivation, and Gamma construction from sum of exponentials).
 - Completed Gamma notebook `notebooks/09_gamma.ipynb` (hospital ICU length of stay use case, 2D likelihood contour surface, digamma MLE, and Chi-Square identity proof).
 - Completed Beta notebook `notebooks/10_beta.ipynb` (Bayesian A/B testing / Thompson sampling use case, 2D likelihood contour surface, digamma MLE, and Uniform order statistics proof).
+- Completed Log-Normal notebook `notebooks/11_lognormal.ipynb` (microservices API response latency SLA use case with p50/p95/p99 analysis, analytical log-space MLE, and Multiplicative Central Limit Theorem demo).
 
 ## Concepts to revisit
 - None yet
